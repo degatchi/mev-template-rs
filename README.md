@@ -2,7 +2,12 @@
 
 A template to build a MEV bot from.
 
+## How to expand on this template
+
+I wrote an article [How To Build A MEV Bot](https://www.degatchi.com/articles/how-to-build-a-mev-bot) that explains the overall architecture you need to think of to build a bot - from getting a strategy, fetching data, etc.
+
 ## Quick Start
+
 - Get a node from [QuickNode](https://www.quicknode.com) as they have a free websocket option or you can run your own node.
 - Import your EOA priv key for the bot to execute transactions.
 - Add your discord websocket to send alerts to.
