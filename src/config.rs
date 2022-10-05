@@ -8,9 +8,9 @@ use crate::dex::Dex;
 
 pub struct Config {
     #[allow(dead_code)]
-    http: Arc<SignerMiddleware<Provider<Http>, Wallet<SigningKey>>>,
+    pub http: Arc<SignerMiddleware<Provider<Http>, Wallet<SigningKey>>>,
     #[allow(dead_code)]
-    wss: Arc<Provider<Ws>>,
+    pub wss: Arc<Provider<Ws>>,
 }
 
 impl Config {
