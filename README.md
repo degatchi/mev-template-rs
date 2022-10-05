@@ -1,14 +1,24 @@
-# mev-template
+# MEV Template
 
-A boilerplate foundation to build on top of instead of building a bot from scratch.
+A template to build a MEV bot from.
+
+## Features
+
+- [x] Simple discord message system.
+- [x] Historic block function caller.
+- [x] Uniswap `amountIn` + `amountOut` functions
+- [x] Contract ABI binding.
+- [x] Template contract
+  - [x] Uniswap getters.
+  - [x] Withdraw ERC20 + ETH functions.
 
 ## Testing Onchain Data
 
-### Using Python3
+Setting up environment:
 
-- Install python3 `pip install`.
+- Install python3: `pip install`.
 - Install modules: `pip install web3`.
-- Running script `python3 block_history.py`.
+- Run: `python3 block_history.py`.
 
 5 main components to consider:
 
