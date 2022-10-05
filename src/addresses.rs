@@ -1,8 +1,10 @@
 use ethers::prelude::{k256::ecdsa::SigningKey, *};
 
-pub const SMART_CONTRACT_ADDRESS: &str = "";
+pub const SPOOKY_SWAP_ROUTER: &str = "0xF491e7B69E4244ad4002BC14e878a34207E38c29";
+pub const SPOOKY_SWAP_FACTORY: &str = "0x152eE697f2E276fA89E96742e9bB9aB1F2E61bE3";
 
-abigen!(SmartContract, "src/abi/LpPair.json");
+abigen!(UniV2Router, "src/abi/UniV2Router.json");
+abigen!(UniV2Factory, "src/abi/UniV2Factory.json");
 
 /// Converts &str to Address.
 pub fn address(address: &str) -> Address {

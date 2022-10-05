@@ -2,6 +2,12 @@
 
 A template to build a MEV bot from.
 
+## Quick Start
+- Get a node from [QuickNode](https://www.quicknode.com) as they have a free websocket option or you can run your own node.
+- Import your EOA priv key for the bot to execute transactions.
+- Add your discord websocket to send alerts to.
+- For production build, run `cargo --release`
+
 ## Features
 
 - [x] Simple discord message system.
