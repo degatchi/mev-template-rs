@@ -9,10 +9,10 @@ Bootstrap your MEV bot strategies with a simple boilerplate to build on top of.
 I wrote an article [How To Build A MEV Bot](https://www.degatchi.com/articles/how-to-build-a-mev-bot) that explains the overall architecture you need to think of to build a bot - from getting a strategy and fetching data to general tips on design structure (that you most likely wont find anywhere else).
 
 I've built out a fair few foundational features that you can customsie to your liking. Whether your strategy utilises a mempool scanner, next block strategy, event streaming, this repo lays the basics out so you don't need to copy and paste your bots for new strategies.
+s
+Majority of these features can be expanded upon to become much more comprehensive, however it's not wise to open source it since your competition will either use it/know how advance your system is ;)
 
-Majority of these features can be expanded upon to become much more comprehensive, however it's not wise to open source it since that'll be your competition ;)
-
-Having said that, I wanted to create something to help people that are struggling to get into MEV. Despite it being a highly competitive field where this repo would enhance/onboard new competitors, I wanted to help the people that are in the same position as I once was. It's a cold world out there in MEV-land but hopefully this will give you that inspiration you need to keep pushing forward <3
+Having said that, the aim of this was to create something to help people that are struggling to get into MEV. Despite it being a highly competitive field where this repo would enhance/onboard new competitors, I wanted to give people that are in the same position as I once was a chance to break into the field. It's a cold world out there in MEV-land but hopefully this will give you that inspiration you need to keep pushing forward <3
 
 ## Quick Start
 
