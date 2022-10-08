@@ -2,7 +2,7 @@ use std::sync::Arc;
 
 use ethers::prelude::{abi::AbiDecode, k256::ecdsa::SigningKey, *};
 
-use crate::addresses::{UniV2Factory, UniV2Router, UniV2RouterCalls};
+use crate::address_book::{UniV2Factory, UniV2Router, UniV2RouterCalls};
 
 #[allow(dead_code)]
 pub struct Dex {
